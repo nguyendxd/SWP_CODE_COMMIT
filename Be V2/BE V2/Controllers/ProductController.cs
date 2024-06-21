@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using BE_V2.DataDB;
+using FluentValidation;
 
 namespace BE_V2.Controllers
 {
@@ -9,10 +10,11 @@ namespace BE_V2.Controllers
     public class ProductsController : ControllerBase
     {
         private readonly DiamondShopV4Context _context;
-
-        public ProductsController(DiamondShopV4Context context)
+        private readonly IValidator<Product> _productValidator;
+        public ProductsController(DiamondShopV4Context context, IValidator<Product> productValidator)
         {
             _context = context;
+            _productValidator = productValidator;
         }
 
         // GET: api/Products
