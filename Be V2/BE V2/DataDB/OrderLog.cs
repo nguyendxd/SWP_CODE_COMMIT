@@ -20,7 +20,12 @@ public class OrderLog
 
     public bool Phase4 { get; set; } = false;
 
-    public DateTime PhaseTime { get; set; } = DateTime.UtcNow;
+    public DateTime TimePhase1 { get; set; } = DateTime.UtcNow;
+
+    public DateTime TimePhase2 { get; set; } = DateTime.UtcNow;
+    public DateTime TimePhase3 { get; set; } = DateTime.UtcNow;
+    public DateTime TimePhase4 { get; set; } = DateTime.UtcNow;
+
 
     public virtual Order? Order { get; set; }
 }

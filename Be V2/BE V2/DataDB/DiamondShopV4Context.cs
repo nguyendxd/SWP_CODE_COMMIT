@@ -31,7 +31,7 @@ namespace BE_V2.DataDB
         public virtual DbSet<EventItem> EventItems { get; set; }
         public virtual DbSet<PriceDetail> PriceDetails { get; set; }
         public virtual DbSet<CustomerPoints> CustomerPoints { get; set; }
-        public virtual DbSet<OrderLog> OrderLogs { get; set; }
+        public virtual DbSet<OrderLog> OrderLog { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
@@ -375,7 +375,10 @@ namespace BE_V2.DataDB
                 entity.Property(e => e.Phase2).HasDefaultValue(false);
                 entity.Property(e => e.Phase3).HasDefaultValue(false);
                 entity.Property(e => e.Phase4).HasDefaultValue(false);
-                entity.Property(e => e.PhaseTime).IsRequired();
+                entity.Property(e => e.TimePhase1).IsRequired();
+                entity.Property(e => e.TimePhase2).IsRequired();
+                entity.Property(e => e.TimePhase3).IsRequired();
+                entity.Property(e => e.TimePhase4).IsRequired();
 
                 entity.HasOne(ol => ol.Order)
                       .WithMany(o => o.OrderLogs)

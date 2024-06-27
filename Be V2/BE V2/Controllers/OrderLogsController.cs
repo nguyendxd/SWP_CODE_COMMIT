@@ -1,151 +1,121 @@
-﻿using System.Collections.Generic;
-using System.Linq;
+﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using BE_V2.DataDB;
 using BE_V2.DTOs;
 
-namespace BE_V2.Controllers
+[Route("api/[controller]")]
+[ApiController]
+public class OrderLogsController : ControllerBase
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class OrderLogsController : ControllerBase
+    private readonly DiamondShopV4Context _context;
+
+    public OrderLogsController(DiamondShopV4Context context)
     {
-        private readonly DiamondShopV4Context _context;
+        _context = context;
+    }
 
-        public OrderLogsController(DiamondShopV4Context context)
+    // GET: api/OrderLogs
+    [HttpGet]
+    public async Task<ActionResult<IEnumerable<OrderLog>>> GetOrderLogs()
+    {
+        return await _context.OrderLog.ToListAsync();
+    }
+
+    // GET: api/OrderLogs/5
+    [HttpGet("{id}")]
+    public async Task<ActionResult<OrderLog>> GetOrderLog(int id)
+    {
+        var orderLog = await _context.OrderLog.FindAsync(id);
+
+        if (orderLog == null)
         {
-            _context = context;
+            return NotFound();
         }
 
-        // GET: api/OrderLogs
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<OrderLogDTO>>> GetOrderLogs()
-        {
-            var orderLogs = await _context.OrderLogs.ToListAsync();
-            var orderLogDTOs = orderLogs.Select(ol => new OrderLogDTO
-            {
-                OrderID = ol.OrderID,
-                Phase1 = ol.Phase1,
-                Phase2 = ol.Phase2,
-                Phase3 = ol.Phase3,
-                Phase4 = ol.Phase4,
-                PhaseTime = ol.PhaseTime
-            }).ToList();
+        return orderLog;
+    }
 
-            return Ok(orderLogDTOs);
+    // POST: api/OrderLogs
+    [HttpPost]
+    public async Task<ActionResult<OrderLog>> PostOrderLog(OrderLogDTO orderLogDto)
+    {
+        // Check if the OrderID exists in the Orders table
+        var orderExists = await _context.Orders.AnyAsync(o => o.OrderId == orderLogDto.OrderID);
+        if (!orderExists)
+        {
+            return BadRequest("Invalid OrderID");
         }
 
-        // GET: api/OrderLogs/5
-        [HttpGet("{id}")]
-        public async Task<ActionResult<OrderLogDTO>> GetOrderLog(int id)
+        var orderLog = new OrderLog
         {
-            var orderLog = await _context.OrderLogs.FindAsync(id);
+            OrderID = orderLogDto.OrderID,
+            Phase1 = orderLogDto.Phase1,
+            Phase2 = orderLogDto.Phase2,
+            Phase3 = orderLogDto.Phase3,
+            Phase4 = orderLogDto.Phase4,
+            TimePhase1 = orderLogDto.TimePhase1 ?? DateTime.UtcNow,
+            TimePhase2 = orderLogDto.TimePhase2 ?? DateTime.UtcNow,
+            TimePhase3 = orderLogDto.TimePhase3 ?? DateTime.UtcNow,
+            TimePhase4 = orderLogDto.TimePhase4 ?? DateTime.UtcNow
+        };
 
-            if (orderLog == null)
-            {
-                return NotFound();
-            }
+        _context.OrderLog.Add(orderLog);
+        await _context.SaveChangesAsync();
 
-            var orderLogDTO = new OrderLogDTO
-            {
-                OrderID = orderLog.OrderID,
-                Phase1 = orderLog.Phase1,
-                Phase2 = orderLog.Phase2,
-                Phase3 = orderLog.Phase3,
-                Phase4 = orderLog.Phase4,
-                PhaseTime = orderLog.PhaseTime
-            };
+        return CreatedAtAction(nameof(GetOrderLog), new { id = orderLog.LogID }, orderLog);
+    }
 
-            return Ok(orderLogDTO);
+
+    // PUT: api/OrderLogs/5
+    [HttpPut("{id}")]
+    public async Task<IActionResult> UpdateOrderStatus(int id, [FromBody] OrderStatusUpdateDto updateDto)
+    {
+        var orderLog = await _context.OrderLog.FindAsync(id);
+        if (orderLog == null)
+        {
+            return NotFound();
         }
 
-        // PUT: api/OrderLogs/5
-        [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateOrderLog(int id, OrderLogDTO orderLogDTO)
+        switch (updateDto.StatusType)
         {
-            var orderLog = await _context.OrderLogs.FindAsync(id);
-            if (orderLog == null)
-            {
-                return NotFound();
-            }
-
-            orderLog.Phase1 = orderLogDTO.Phase1;
-            orderLog.Phase2 = orderLogDTO.Phase2;
-            orderLog.Phase3 = orderLogDTO.Phase3;
-            orderLog.Phase4 = orderLogDTO.Phase4;
-            orderLog.PhaseTime = orderLogDTO.PhaseTime;
-
-            _context.Entry(orderLog).State = EntityState.Modified;
-
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!OrderLogExists(id))
+            case "Phase1":
+                if (!orderLog.Phase1)
                 {
-                    return NotFound();
+                    orderLog.Phase1 = true;
+                    orderLog.TimePhase1 = DateTime.UtcNow;
                 }
-                else
+                break;
+            case "Phase2":
+                if (!orderLog.Phase2)
                 {
-                    throw;
+                    orderLog.Phase2 = true;
+                    orderLog.TimePhase2 = DateTime.UtcNow;
                 }
-            }
-
-            return NoContent();
+                break;
+            case "Phase3":
+                if (!orderLog.Phase3)
+                {
+                    orderLog.Phase3 = true;
+                    orderLog.TimePhase3 = DateTime.UtcNow;
+                }
+                break;
+            case "Phase4":
+                if (!orderLog.Phase4)
+                {
+                    orderLog.Phase4 = true;
+                    orderLog.TimePhase4 = DateTime.UtcNow;
+                }
+                break;
+            default:
+                return BadRequest("Invalid status type");
         }
 
-        // POST: api/OrderLogs
-        [HttpPost]
-        public async Task<ActionResult<OrderLogDTO>> CreateOrderLog(OrderLogDTO orderLogDTO)
-        {
-            // Check if the OrderID exists in the Orders table
-            var orderExists = await _context.Orders.AnyAsync(o => o.OrderId == orderLogDTO.OrderID);
-            if (!orderExists)
-            {
-                return BadRequest("OrderID does not exist.");
-            }
+        _context.Entry(orderLog).State = EntityState.Modified;
+        await _context.SaveChangesAsync();
 
-            var orderLog = new OrderLog
-            {
-                OrderID = orderLogDTO.OrderID,
-                Phase1 = orderLogDTO.Phase1,
-                Phase2 = orderLogDTO.Phase2,
-                Phase3 = orderLogDTO.Phase3,
-                Phase4 = orderLogDTO.Phase4,
-                PhaseTime = DateTime.Now
-            };
-
-            _context.OrderLogs.Add(orderLog);
-            await _context.SaveChangesAsync();
-
-            orderLogDTO.PhaseTime = orderLog.PhaseTime;
-
-            return CreatedAtAction(nameof(GetOrderLog), new { id = orderLog.LogID }, orderLogDTO);
-        }
-
-        // DELETE: api/OrderLogs/5
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteOrderLog(int id)
-        {
-            var orderLog = await _context.OrderLogs.FindAsync(id);
-            if (orderLog == null)
-            {
-                return NotFound();
-            }
-
-            _context.OrderLogs.Remove(orderLog);
-            await _context.SaveChangesAsync();
-
-            return NoContent();
-        }
-
-        private bool OrderLogExists(int id)
-        {
-            return _context.OrderLogs.Any(e => e.LogID == id);
-        }
+        return NoContent();
     }
 }
