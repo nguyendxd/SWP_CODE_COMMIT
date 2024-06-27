@@ -12,7 +12,7 @@ namespace BE_V2.DataDB
         public int WishlistId { get; set; }
 
         [Required]
-        public int CustomerId { get; set; }
+        public int CustomerId { get; set; } 
 
         [Required]
         public DateTime CreatedDate { get; set; }
@@ -21,5 +21,7 @@ namespace BE_V2.DataDB
         public virtual Customer Customer { get; set; }
 
         public virtual ICollection<WishlistItem> WishlistItems { get; set; } = new List<WishlistItem>();
+
+        
     }
 }

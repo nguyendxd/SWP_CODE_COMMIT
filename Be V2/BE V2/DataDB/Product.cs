@@ -11,6 +11,9 @@ namespace BE_V2.DataDB
         {
             OrderDetails = new HashSet<OrderDetail>();
             CartItems = new HashSet<CartItem>();
+            WishlistItems = new HashSet<WishlistItem>();
+            EventItems = new HashSet<EventItem>();
+            PriceDetails = new HashSet<PriceDetail>();
         }
 
         [Key]
@@ -48,5 +51,9 @@ namespace BE_V2.DataDB
         public virtual ICollection<CartItem> CartItems { get; set; }
 
         public virtual ICollection<WishlistItem> WishlistItems { get; set; }
+
+        public virtual ICollection<EventItem> EventItems { get; set; }
+
+        public virtual ICollection<PriceDetail> PriceDetails { get; set; }
     }
 }

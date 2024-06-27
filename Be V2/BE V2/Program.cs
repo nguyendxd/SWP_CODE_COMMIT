@@ -7,6 +7,8 @@ using System.Text.Json.Serialization;
 using System.Text.Json;
 using FluentValidation;
 using FluentValidation.AspNetCore;
+using Hangfire;
+using Hangfire.SqlServer;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -65,6 +67,24 @@ builder.Services.AddAuthorization();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Configure Hangfire services
+builder.Services.AddHangfire(configuration =>
+    configuration.SetDataCompatibilityLevel(CompatibilityLevel.Version_170)
+                 .UseSimpleAssemblyNameTypeSerializer()
+                 .UseDefaultTypeSerializer()
+                 .UseSqlServerStorage(builder.Configuration.GetConnectionString("DefaultConnection"), new SqlServerStorageOptions
+                 {
+                     CommandBatchMaxTimeout = TimeSpan.FromMinutes(5),
+                     SlidingInvisibilityTimeout = TimeSpan.FromMinutes(5),
+                     QueuePollInterval = TimeSpan.Zero,
+                     UseRecommendedIsolationLevel = true,
+                     UsePageLocksOnDequeue = true,
+                     DisableGlobalLocks = true
+                 }));
+
+// Add the processing server as IHostedService
+builder.Services.AddHangfireServer();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -90,4 +110,11 @@ app.UseCors("AllowAllOrigins"); // Use the CORS policy
 app.UseAuthentication(); // Enable authentication middleware
 app.UseAuthorization();
 app.MapControllers();
+
+// Use Hangfire dashboard (optional)
+app.UseHangfireDashboard();
+
+// Schedule the background job to run every hour
+RecurringJob.AddOrUpdate<EventService>("cleanup-expired-events", service => service.CleanupExpiredEvents(), Cron.Hourly);
+
 app.Run();

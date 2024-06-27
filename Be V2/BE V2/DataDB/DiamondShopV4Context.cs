@@ -14,32 +14,23 @@ namespace BE_V2.DataDB
         }
 
         public virtual DbSet<Customer> Customers { get; set; }
-
         public virtual DbSet<Diamond> Diamonds { get; set; }
-
         public virtual DbSet<Feedback> Feedbacks { get; set; }
-
         public virtual DbSet<Order> Orders { get; set; }
-
         public virtual DbSet<OrderDetail> OrderDetails { get; set; }
-
         public virtual DbSet<Payment> Payments { get; set; }
-
         public virtual DbSet<Product> Products { get; set; }
-
         public virtual DbSet<ProductType> ProductTypes { get; set; }
-
         public virtual DbSet<Role> Roles { get; set; }
-
         public virtual DbSet<User> Users { get; set; }
-
         public virtual DbSet<Cart> Carts { get; set; }
-
         public virtual DbSet<CartItem> CartItems { get; set; }
-
         public virtual DbSet<Wishlist> Wishlists { get; set; }
-
         public virtual DbSet<WishlistItem> WishlistItems { get; set; }
+        public virtual DbSet<Event> Events { get; set; }
+        public virtual DbSet<EventItem> EventItems { get; set; }
+        public virtual DbSet<PriceDetail> PriceDetails { get; set; }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
             => optionsBuilder.UseSqlServer("Server=MSI\\SQLEXPRESS;Database=Diamond_Shop_V4;Trusted_Connection=True;TrustServerCertificate=True;");
@@ -60,6 +51,7 @@ namespace BE_V2.DataDB
                 entity.HasOne(d => d.User).WithOne(p => p.Customer)
                     .HasForeignKey<Customer>(d => d.UserId)
                     .HasConstraintName("FK__Customer__UserID__571DF1D5");
+
                 entity.HasMany(d => d.Wishlists)
                    .WithOne(p => p.Customer)
                    .HasForeignKey(d => d.CustomerId)
@@ -160,7 +152,7 @@ namespace BE_V2.DataDB
 
                 entity.Property(e => e.ProductId).HasColumnName("ProductID");
                 entity.Property(e => e.DiamondId).HasColumnName("DiamondID");
-                entity.Property(e => e.Price).HasColumnType("decimal(10, 2)");
+                entity.Property(e => e.Price);
                 entity.Property(e => e.ProductName).HasMaxLength(255);
                 entity.Property(e => e.Size).HasMaxLength(50);
                 entity.Property(e => e.Type).HasMaxLength(50);
@@ -172,10 +164,21 @@ namespace BE_V2.DataDB
                 entity.HasOne(d => d.ProductTypeNavigation).WithMany(p => p.Products)
                     .HasForeignKey(d => d.ProductType)
                     .HasConstraintName("FK__Product__Product__52593CB8");
+
                 entity.HasMany(d => d.WishlistItems)
                     .WithOne(p => p.Product)
                     .HasForeignKey(d => d.ProductId)
                     .HasConstraintName("FK__WishlistI__Produ__06CD04F7");
+
+                entity.HasMany(d => d.EventItems)
+                    .WithOne(ei => ei.Product)
+                    .HasForeignKey(ei => ei.ProductID)
+                    .HasConstraintName("FK__EventItem__ProductID__02FC7413");
+
+                entity.HasMany(d => d.PriceDetails)
+                    .WithOne(p => p.Product)
+                    .HasForeignKey(p => p.ProductID)
+                    .HasConstraintName("FK__PriceDeta__ProductID__06CD04F7");
             });
 
             modelBuilder.Entity<ProductType>(entity =>
@@ -239,7 +242,7 @@ namespace BE_V2.DataDB
                 entity.Property(e => e.CartID).HasColumnName("CartID");
                 entity.Property(e => e.ProductID).HasColumnName("ProductID");
                 entity.Property(e => e.Quantity).IsRequired();
-                entity.Property(e => e.Price).HasColumnType("decimal(10, 2)").IsRequired();
+                entity.Property(e => e.Price).IsRequired();
 
                 entity.HasOne(d => d.Cart)
                     .WithMany(p => p.CartItems)
@@ -251,6 +254,7 @@ namespace BE_V2.DataDB
                     .HasForeignKey(d => d.ProductID)
                     .HasConstraintName("FK__CartItem__Product__2C3393D0");
             });
+
             modelBuilder.Entity<Wishlist>(entity =>
             {
                 entity.HasKey(e => e.WishlistId).HasName("PK__Wishlist__233189CB03175B66");
@@ -264,6 +268,7 @@ namespace BE_V2.DataDB
                     .HasForeignKey(d => d.CustomerId)
                     .HasConstraintName("FK__Wishlist__Custom__02FC7413");
             });
+
             modelBuilder.Entity<WishlistItem>(entity =>
             {
                 entity.HasKey(e => e.WishlistItemId).HasName("PK__Wishlist__171E21813C0A4C5A");
@@ -280,6 +285,66 @@ namespace BE_V2.DataDB
                     .HasForeignKey(d => d.WishlistId)
                     .HasConstraintName("FK__WishlistI__Wishl__05D8E0BE");
             });
+
+            modelBuilder.Entity<Event>(entity =>
+            {
+                entity.HasKey(e => e.EventID).HasName("PK__Event__1E20497A");
+
+                entity.ToTable("Event");
+
+                entity.Property(e => e.EventID).HasColumnName("EventID");
+                entity.Property(e => e.EventName).IsRequired().HasMaxLength(255);
+                entity.Property(e => e.Date).IsRequired();
+                entity.Property(e => e.Description).HasMaxLength(int.MaxValue);
+
+                entity.HasMany(e => e.EventItems)
+                      .WithOne(ei => ei.Event)
+                      .HasForeignKey(ei => ei.EventID)
+                      .HasConstraintName("FK__EventItem__EventID__02FC7413");
+            });
+
+            modelBuilder.Entity<EventItem>(entity =>
+            {
+                entity.HasKey(e => e.EventItemID).HasName("PK__EventItem__1BFD2C07");
+
+                entity.ToTable("EventItem");
+
+                entity.Property(e => e.EventItemID).HasColumnName("EventItemID");
+                entity.Property(e => e.EventID).IsRequired();
+                entity.Property(e => e.ProductID).IsRequired();
+                entity.Property(e => e.Date).IsRequired();
+                entity.Property(e => e.Discount).IsRequired();
+
+                entity.HasOne(ei => ei.Event)
+                      .WithMany(e => e.EventItems)
+                      .HasForeignKey(ei => ei.EventID)
+                      .HasConstraintName("FK__EventItem__EventID__02FC7413");
+
+                entity.HasOne(ei => ei.Product)
+                      .WithMany(p => p.EventItems)
+                      .HasForeignKey(ei => ei.ProductID)
+                      .HasConstraintName("FK__EventItem__ProductID__02FC7413");
+            });
+
+            modelBuilder.Entity<PriceDetail>(entity =>
+            {
+                entity.HasKey(e => e.PriceDetailID).HasName("PK__PriceDetail__1A14E395");
+
+                entity.ToTable("PriceDetail");
+
+                entity.Property(e => e.PriceDetailID).HasColumnName("PriceDetailID");
+                entity.Property(e => e.ProductID).IsRequired();
+                entity.Property(e => e.DiamondPrice).IsRequired();
+                entity.Property(e => e.JewelryPrice).IsRequired();
+                entity.Property(e => e.ProcessingPrice).IsRequired();
+                entity.Property(e => e.Profit).IsRequired();
+
+                entity.HasOne(pd => pd.Product)
+                      .WithMany(p => p.PriceDetails)
+                      .HasForeignKey(pd => pd.ProductID)
+                      .HasConstraintName("FK__PriceDeta__ProductID__06CD04F7");
+            });
+
             OnModelCreatingPartial(modelBuilder);
         }
 

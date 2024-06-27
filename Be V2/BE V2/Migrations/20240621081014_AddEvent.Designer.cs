@@ -4,6 +4,7 @@ using BE_V2.DataDB;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BE_V2.Migrations
 {
     [DbContext(typeof(DiamondShopV4Context))]
-    partial class DiamondShopV4ContextModelSnapshot : ModelSnapshot
+    [Migration("20240621081014_AddEvent")]
+    partial class AddEvent
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -62,7 +65,7 @@ namespace BE_V2.Migrations
                         .HasColumnName("CartID");
 
                     b.Property<decimal>("Price")
-                        .HasColumnType("decimal(18,2)");
+                        .HasColumnType("decimal(10, 2)");
 
                     b.Property<int>("ProductID")
                         .HasColumnType("int")
@@ -211,7 +214,7 @@ namespace BE_V2.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<decimal>("Discount")
-                        .HasColumnType("decimal(18,2)");
+                        .HasColumnType("decimal(5, 2)");
 
                     b.Property<int>("EventID")
                         .HasColumnType("int");
@@ -357,38 +360,6 @@ namespace BE_V2.Migrations
                     b.ToTable("Payment", (string)null);
                 });
 
-            modelBuilder.Entity("BE_V2.DataDB.PriceDetail", b =>
-                {
-                    b.Property<int>("PriceDetailID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasColumnName("PriceDetailID");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PriceDetailID"));
-
-                    b.Property<decimal>("DiamondPrice")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<decimal>("JewelryPrice")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<decimal>("ProcessingPrice")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<int>("ProductID")
-                        .HasColumnType("int");
-
-                    b.Property<decimal>("Profit")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.HasKey("PriceDetailID")
-                        .HasName("PK__PriceDetail__1A14E395");
-
-                    b.HasIndex("ProductID");
-
-                    b.ToTable("PriceDetail", (string)null);
-                });
-
             modelBuilder.Entity("BE_V2.DataDB.Product", b =>
                 {
                     b.Property<int>("ProductId")
@@ -415,7 +386,7 @@ namespace BE_V2.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal?>("Price")
-                        .HasColumnType("decimal(18,2)");
+                        .HasColumnType("decimal(10, 2)");
 
                     b.Property<string>("ProductName")
                         .HasMaxLength(255)
@@ -705,18 +676,6 @@ namespace BE_V2.Migrations
                     b.Navigation("Order");
                 });
 
-            modelBuilder.Entity("BE_V2.DataDB.PriceDetail", b =>
-                {
-                    b.HasOne("BE_V2.DataDB.Product", "Product")
-                        .WithMany("PriceDetails")
-                        .HasForeignKey("ProductID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired()
-                        .HasConstraintName("FK__PriceDeta__ProductID__06CD04F7");
-
-                    b.Navigation("Product");
-                });
-
             modelBuilder.Entity("BE_V2.DataDB.Product", b =>
                 {
                     b.HasOne("BE_V2.DataDB.Diamond", "Diamond")
@@ -815,8 +774,6 @@ namespace BE_V2.Migrations
                     b.Navigation("EventItems");
 
                     b.Navigation("OrderDetails");
-
-                    b.Navigation("PriceDetails");
 
                     b.Navigation("WishlistItems");
                 });

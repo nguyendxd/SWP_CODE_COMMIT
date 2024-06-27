@@ -25,6 +25,6 @@ namespace BE_V2.DataDB
 
         [ForeignKey("ProductId")]
         public virtual Product Product { get; set; }
-        public virtual ICollection<WishlistItem> WishlistItems { get; set; }
+      
     }
 }
