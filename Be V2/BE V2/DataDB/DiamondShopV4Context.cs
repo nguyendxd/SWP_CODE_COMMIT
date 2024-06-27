@@ -30,6 +30,8 @@ namespace BE_V2.DataDB
         public virtual DbSet<Event> Events { get; set; }
         public virtual DbSet<EventItem> EventItems { get; set; }
         public virtual DbSet<PriceDetail> PriceDetails { get; set; }
+        public virtual DbSet<CustomerPoints> CustomerPoints { get; set; }
+        public virtual DbSet<OrderLog> OrderLogs { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
@@ -343,6 +345,42 @@ namespace BE_V2.DataDB
                       .WithMany(p => p.PriceDetails)
                       .HasForeignKey(pd => pd.ProductID)
                       .HasConstraintName("FK__PriceDeta__ProductID__06CD04F7");
+            });
+
+            modelBuilder.Entity<CustomerPoints>(entity =>
+            {
+                entity.HasKey(e => e.CustomerPointID).HasName("PK__CustomerPoints");
+
+                entity.ToTable("CustomerPoints");
+
+                entity.Property(e => e.CustomerPointID).HasColumnName("CustomerPointID");
+                entity.Property(e => e.CustomerID).IsRequired();
+                entity.Property(e => e.Points).IsRequired();
+                entity.Property(e => e.LastUpdated).IsRequired();
+
+                entity.HasOne(cp => cp.Customer)
+                      .WithMany(c => c.CustomerPoints)
+                      .HasForeignKey(cp => cp.CustomerID)
+                      .HasConstraintName("FK__CustomerPoints__CustomerID");
+            });
+            modelBuilder.Entity<OrderLog>(entity =>
+            {
+                entity.HasKey(e => e.LogID).HasName("PK__OrderLog__A5D58A608123E0B0");
+
+                entity.ToTable("OrderLog");
+
+                entity.Property(e => e.LogID).HasColumnName("LogID");
+                entity.Property(e => e.OrderID).IsRequired();
+                entity.Property(e => e.Phase1).HasDefaultValue(false);
+                entity.Property(e => e.Phase2).HasDefaultValue(false);
+                entity.Property(e => e.Phase3).HasDefaultValue(false);
+                entity.Property(e => e.Phase4).HasDefaultValue(false);
+                entity.Property(e => e.PhaseTime).IsRequired();
+
+                entity.HasOne(ol => ol.Order)
+                      .WithMany(o => o.OrderLogs)
+                      .HasForeignKey(ol => ol.OrderID)
+                      .HasConstraintName("FK__OrderLog__OrderID__02FC7413");
             });
 
             OnModelCreatingPartial(modelBuilder);

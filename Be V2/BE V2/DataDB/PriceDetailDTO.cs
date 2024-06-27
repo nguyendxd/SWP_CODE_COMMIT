@@ -1,24 +1,24 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BE_V2.DataDB
 {
-    public class PriceDetail
+    public class PriceDetailDTO
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int PriceDetailID { get; set; }
-    
+
+        [Required]
         public int ProductID { get; set; }
-  
+
+        [Required]
         public decimal DiamondPrice { get; set; }
-   
+
+        [Required]
         public decimal JewelryPrice { get; set; }
 
+        [Required]
         public decimal ProcessingPrice { get; set; }
-    
-        public decimal Profit { get; set; }
 
-        public virtual Product? Product { get; set; }
+        [Required]
+        public decimal Profit { get; set; }
     }
 }

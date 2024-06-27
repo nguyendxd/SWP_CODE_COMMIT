@@ -12,7 +12,7 @@ using Hangfire.SqlServer;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Configure JSON options
+// Cấu hình tùy chọn JSON
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
     {
@@ -21,11 +21,11 @@ builder.Services.AddControllers()
         options.JsonSerializerOptions.PropertyNamingPolicy = JsonNamingPolicy.CamelCase;
     });
 
-// Add services to the container.
+// Thêm các dịch vụ vào container
 builder.Services.AddDbContext<DiamondShopV4Context>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Add CORS policy
+// Thêm chính sách CORS
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAllOrigins",
@@ -34,11 +34,11 @@ builder.Services.AddCors(options =>
                           .AllowAnyMethod());
 });
 
-// Add FluentValidation services
+// Thêm các dịch vụ FluentValidation
 builder.Services.AddFluentValidationAutoValidation();
 builder.Services.AddValidatorsFromAssemblyContaining<UserValidator>(); // Thay 'UserValidator' bằng validator của bạn
 
-// Configure JWT authentication
+// Cấu hình xác thực JWT
 var key = Encoding.ASCII.GetBytes(builder.Configuration["Jwt:Key"]);
 builder.Services.AddAuthentication(options =>
 {
@@ -63,11 +63,11 @@ builder.Services.AddAuthentication(options =>
 
 builder.Services.AddAuthorization();
 
-// Configure Swagger
+//Cấu hình Swagger
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Configure Hangfire services
+//Cấu hình dịch vụ Hangfire
 builder.Services.AddHangfire(configuration =>
     configuration.SetDataCompatibilityLevel(CompatibilityLevel.Version_170)
                  .UseSimpleAssemblyNameTypeSerializer()
@@ -82,12 +82,12 @@ builder.Services.AddHangfire(configuration =>
                      DisableGlobalLocks = true
                  }));
 
-// Add the processing server as IHostedService
+//Thêm máy chủ xử lý nền của Hangfire như một dịch vụ IHostedService
 builder.Services.AddHangfireServer();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+//Cấu hình pipeline xử lý HTTP
 if (app.Environment.IsDevelopment())
 {
     app.UseDeveloperExceptionPage();
@@ -95,7 +95,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI(c =>
     {
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "Your API v1");
-        c.RoutePrefix = string.Empty; // Set Swagger UI at the app's root
+        c.RoutePrefix = string.Empty; // Đặt Swagger UI tại gốc của ứng dụng
     });
 }
 else
@@ -106,15 +106,15 @@ else
 
 app.UseHttpsRedirection();
 app.UseRouting();
-app.UseCors("AllowAllOrigins"); // Use the CORS policy
-app.UseAuthentication(); // Enable authentication middleware
+app.UseCors("AllowAllOrigins"); // Sử dụng chính sách CORS
+app.UseAuthentication(); // Kích hoạt middleware xác thực
 app.UseAuthorization();
 app.MapControllers();
 
-// Use Hangfire dashboard (optional)
+//Sử dụng Hangfire dashboard (tùy chọn)
 app.UseHangfireDashboard();
 
-// Schedule the background job to run every hour
+//Lên lịch công việc nền chạy hàng giờ
 RecurringJob.AddOrUpdate<EventService>("cleanup-expired-events", service => service.CleanupExpiredEvents(), Cron.Hourly);
 
 app.Run();

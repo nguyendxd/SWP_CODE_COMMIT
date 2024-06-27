@@ -11,9 +11,6 @@ using System;
             .Must(productname => !productname.StartsWith(" ")).WithErrorCode("Product first character cannot have space")
             .Must(productname => !productname.Any(chr => !char.IsLetterOrDigit(chr))).WithErrorCode("Product name special characters are not allowed");
        
-        RuleFor(product => product.ProductId)
-            .NotEmpty().WithErrorCode("Product ID must not be blank")
-            .Must(productid => !productid.ToString().StartsWith(" ")).WithErrorCode("Product ID first character cannot have space");
         
         RuleFor(product => product.ProductType)
             .NotEmpty().WithErrorCode("Product type must not be blank");

@@ -3,44 +3,120 @@
   "WorkspaceRootPath": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\datadb\\pricedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:datadb\\pricedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\controllers\\orderlogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:controllers\\orderlogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\controllers\\pricedetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:controllers\\pricedetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Migrations\\20240625052059_AddPriceDetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240625052059_AddPriceDetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\datadb\\diamondshopv4context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:datadb\\diamondshopv4context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Migrations\\20240625050744_AddPriceDetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240625050744_AddPriceDetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\datadb\\orderlogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:datadb\\orderlogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Migrations\\20240625050601_AddPriceDetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240625050601_AddPriceDetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\datadb\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:datadb\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\migrations\\diamondshopv4contextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:migrations\\diamondshopv4contextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\datadb\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:datadb\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Migrations\\20240626083250_newOrderLog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240626083250_newOrderLog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\datadb\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:datadb\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\datadb\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:datadb\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\datadb\\eventitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:datadb\\eventitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\datadb\\orderlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:datadb\\orderlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\datadb\\eventitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:datadb\\eventitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Migrations\\20240626075201_AddOrderLog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240626075201_AddOrderLog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\datadb\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:datadb\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\datadb\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:datadb\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\datadb\\customerpointsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:datadb\\customerpointsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\datadb\\customerpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:datadb\\customerpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\datadb\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:datadb\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\datadb\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:datadb\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\datadb\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:datadb\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\migrations\\20240626062657_addcustomerpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:migrations\\20240626062657_addcustomerpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\datadb\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:datadb\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\datadb\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:datadb\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\datadb\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:datadb\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\datadb\\productvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:datadb\\productvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\controllers\\pricedetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:controllers\\pricedetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\datadb\\pricedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:datadb\\pricedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +126,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,132 +134,379 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PriceDetailsController.cs",
-              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Controllers\\PriceDetailsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PriceDetailsController.cs",
-              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Controllers\\PriceDetailsController.cs",
-              "RelativeToolTip": "Controllers\\PriceDetailsController.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAAABYAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T05:22:13.039Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20240625052059_AddPriceDetail.cs",
-              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Migrations\\20240625052059_AddPriceDetail.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240625052059_AddPriceDetail.cs",
-              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Migrations\\20240625052059_AddPriceDetail.cs",
-              "RelativeToolTip": "Migrations\\20240625052059_AddPriceDetail.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T05:20:59.211Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "20240625050744_AddPriceDetail.cs",
-              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Migrations\\20240625050744_AddPriceDetail.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240625050744_AddPriceDetail.cs",
-              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Migrations\\20240625050744_AddPriceDetail.cs",
-              "RelativeToolTip": "Migrations\\20240625050744_AddPriceDetail.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAuwBYAAABaAAAA",
+              "Title": "OrderDTO.cs",
+              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\OrderDTO.cs",
+              "RelativeDocumentMoniker": "DataDB\\OrderDTO.cs",
+              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\OrderDTO.cs",
+              "RelativeToolTip": "DataDB\\OrderDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T05:07:44.653Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "20240625050601_AddPriceDetail.cs",
-              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Migrations\\20240625050601_AddPriceDetail.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240625050601_AddPriceDetail.cs",
-              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Migrations\\20240625050601_AddPriceDetail.cs",
-              "RelativeToolTip": "Migrations\\20240625050601_AddPriceDetail.cs",
-              "ViewState": "AQIAAO0AAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T05:06:01.512Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\Product.cs",
-              "RelativeDocumentMoniker": "DataDB\\Product.cs",
-              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\Product.cs",
-              "RelativeToolTip": "DataDB\\Product.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAmwDYAAABGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T05:03:30.712Z",
+              "WhenOpened": "2024-06-26T08:39:05.47Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PriceDetail.cs",
-              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\PriceDetail.cs",
-              "RelativeDocumentMoniker": "DataDB\\PriceDetail.cs",
-              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\PriceDetail.cs",
-              "RelativeToolTip": "DataDB\\PriceDetail.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAxAAAA",
+              "Title": "OrderLogsController.cs",
+              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Controllers\\OrderLogsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderLogsController.cs",
+              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Controllers\\OrderLogsController.cs",
+              "RelativeToolTip": "Controllers\\OrderLogsController.cs",
+              "ViewState": "AQIAAIMAAAAAAAAAAAAuwJcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T04:34:46.733Z",
+              "WhenOpened": "2024-06-26T08:34:22.261Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "OrderLogDTO.cs",
+              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\OrderLogDTO.cs",
+              "RelativeDocumentMoniker": "DataDB\\OrderLogDTO.cs",
+              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\OrderLogDTO.cs",
+              "RelativeToolTip": "DataDB\\OrderLogDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T07:59:58.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20240626075201_AddOrderLog.cs",
+              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Migrations\\20240626075201_AddOrderLog.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240626075201_AddOrderLog.cs",
+              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Migrations\\20240626075201_AddOrderLog.cs",
+              "RelativeToolTip": "Migrations\\20240626075201_AddOrderLog.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T07:52:01.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\Order.cs",
+              "RelativeDocumentMoniker": "DataDB\\Order.cs",
+              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\Order.cs",
+              "RelativeToolTip": "DataDB\\Order.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAkwAwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T07:49:03.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DiamondShopV4Context.cs",
               "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\DiamondShopV4Context.cs",
               "RelativeDocumentMoniker": "DataDB\\DiamondShopV4Context.cs",
               "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\DiamondShopV4Context.cs",
               "RelativeToolTip": "DataDB\\DiamondShopV4Context.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAA3wGEBAAAAAAAA",
+              "ViewState": "AQIAAHIBAAAAAAAAAAAowH8BAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T04:52:06.588Z",
+              "WhenOpened": "2024-06-26T07:46:47.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAcwF8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T05:37:26.223Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "DiamondShopV4ContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Migrations\\DiamondShopV4ContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Migrations\\DiamondShopV4ContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Migrations\\DiamondShopV4ContextModelSnapshot.cs",
-              "RelativeToolTip": "Migrations\\DiamondShopV4ContextModelSnapshot.cs",
-              "ViewState": "AQIAADIDAAAAAAAAAAAmwEYDAAATAAAA",
+              "Title": "20240626083250_newOrderLog.cs",
+              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Migrations\\20240626083250_newOrderLog.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240626083250_newOrderLog.cs",
+              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Migrations\\20240626083250_newOrderLog.cs",
+              "RelativeToolTip": "Migrations\\20240626083250_newOrderLog.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T04:49:12.057Z",
+              "WhenOpened": "2024-06-26T08:32:50.289Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EventItem.cs",
-              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\EventItem.cs",
-              "RelativeDocumentMoniker": "DataDB\\EventItem.cs",
-              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\EventItem.cs",
-              "RelativeToolTip": "DataDB\\EventItem.cs",
+              "DocumentIndex": 5,
+              "Title": "EventDTO.cs",
+              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\EventDTO.cs",
+              "RelativeDocumentMoniker": "DataDB\\EventDTO.cs",
+              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\EventDTO.cs",
+              "RelativeToolTip": "DataDB\\EventDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T04:34:10.469Z",
+              "WhenOpened": "2024-06-26T08:35:45.28Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "EventItemDTO.cs",
-              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\EventItemDTO.cs",
-              "RelativeDocumentMoniker": "DataDB\\EventItemDTO.cs",
-              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\EventItemDTO.cs",
-              "RelativeToolTip": "DataDB\\EventItemDTO.cs",
+              "Title": "OrderLog.cs",
+              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\OrderLog.cs",
+              "RelativeDocumentMoniker": "DataDB\\OrderLog.cs",
+              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\OrderLog.cs",
+              "RelativeToolTip": "DataDB\\OrderLog.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAswBgAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T07:32:14.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\CustomerService.cs",
+              "RelativeDocumentMoniker": "DataDB\\CustomerService.cs",
+              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\CustomerService.cs",
+              "RelativeToolTip": "DataDB\\CustomerService.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAADIAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T06:57:16.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\Product.cs",
+              "RelativeDocumentMoniker": "DataDB\\Product.cs",
+              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\Product.cs",
+              "RelativeToolTip": "DataDB\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T06:15:08.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CustomerPointsDTO.cs",
+              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\CustomerPointsDTO.cs",
+              "RelativeDocumentMoniker": "DataDB\\CustomerPointsDTO.cs",
+              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\CustomerPointsDTO.cs",
+              "RelativeToolTip": "DataDB\\CustomerPointsDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T05:53:08.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ICustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\ICustomerService.cs",
+              "RelativeDocumentMoniker": "DataDB\\ICustomerService.cs",
+              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\ICustomerService.cs",
+              "RelativeToolTip": "DataDB\\ICustomerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T06:55:16.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\Customer.cs",
+              "RelativeDocumentMoniker": "DataDB\\Customer.cs",
+              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\Customer.cs",
+              "RelativeToolTip": "DataDB\\Customer.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAqwBgAAABsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T06:14:57.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CustomerPoints.cs",
+              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\CustomerPoints.cs",
+              "RelativeDocumentMoniker": "DataDB\\CustomerPoints.cs",
+              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\CustomerPoints.cs",
+              "RelativeToolTip": "DataDB\\CustomerPoints.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T05:13:43.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Feedback.cs",
+              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\Feedback.cs",
+              "RelativeDocumentMoniker": "DataDB\\Feedback.cs",
+              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\Feedback.cs",
+              "RelativeToolTip": "DataDB\\Feedback.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAuwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T06:34:04.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20240626062657_AddCustomerPoint.cs",
+              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Migrations\\20240626062657_AddCustomerPoint.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240626062657_AddCustomerPoint.cs",
+              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Migrations\\20240626062657_AddCustomerPoint.cs",
+              "RelativeToolTip": "Migrations\\20240626062657_AddCustomerPoint.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T06:26:58.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAA4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T06:05:20.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CartDTO.cs",
+              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\CartDTO.cs",
+              "RelativeDocumentMoniker": "DataDB\\CartDTO.cs",
+              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\CartDTO.cs",
+              "RelativeToolTip": "DataDB\\CartDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T06:01:56.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\Cart.cs",
+              "RelativeDocumentMoniker": "DataDB\\Cart.cs",
+              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\Cart.cs",
+              "RelativeToolTip": "DataDB\\Cart.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T06:01:25.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\Event.cs",
+              "RelativeDocumentMoniker": "DataDB\\Event.cs",
+              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\Event.cs",
+              "RelativeToolTip": "DataDB\\Event.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T05:53:42.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\CartItem.cs",
+              "RelativeDocumentMoniker": "DataDB\\CartItem.cs",
+              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\CartItem.cs",
+              "RelativeToolTip": "DataDB\\CartItem.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T06:01:19.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ProductValidator.cs",
+              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\ProductValidator.cs",
+              "RelativeDocumentMoniker": "DataDB\\ProductValidator.cs",
+              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\ProductValidator.cs",
+              "RelativeToolTip": "DataDB\\ProductValidator.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwAwAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T05:49:33.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Controllers\\CustomerController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T05:41:02.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Controllers\\OrdersController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T04:34:09.388Z",
+              "WhenOpened": "2024-06-26T05:40:44.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "PriceDetailsController.cs",
+              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Controllers\\PriceDetailsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PriceDetailsController.cs",
+              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Controllers\\PriceDetailsController.cs",
+              "RelativeToolTip": "Controllers\\PriceDetailsController.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAAwDsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T05:40:28.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AQIAAIcAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T05:36:45.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PriceDetail.cs",
+              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\PriceDetail.cs",
+              "RelativeDocumentMoniker": "DataDB\\PriceDetail.cs",
+              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\PriceDetail.cs",
+              "RelativeToolTip": "DataDB\\PriceDetail.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAuwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T05:24:23.07Z",
               "EditorCaption": ""
             }
           ]

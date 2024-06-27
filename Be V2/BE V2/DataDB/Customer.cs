@@ -5,6 +5,10 @@ namespace BE_V2.DataDB;
 
 public partial class Customer
 {
+    public Customer()
+    {
+        CustomerPoints = new HashSet<CustomerPoints>();
+    }
     public int CustomerId { get; set; }
 
     public int? UserId { get; set; }
@@ -17,4 +21,7 @@ public partial class Customer
 
     public virtual ICollection<Wishlist> Wishlists { get; set; } = new List<Wishlist>();
     public virtual User? User { get; set; }
+
+    public virtual ICollection<CustomerPoints> CustomerPoints { get; set; } = new HashSet<CustomerPoints>();
+
 }

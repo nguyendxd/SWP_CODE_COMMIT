@@ -18,9 +18,25 @@ namespace BE_V2.Controllers
 
         // POST: api/PriceDetail
         [HttpPost]
-        public async Task<ActionResult<PriceDetail>> CreatePriceDetail([FromBody] PriceDetail priceDetail)
+        public async Task<ActionResult<PriceDetail>> CreatePriceDetail([FromBody] PriceDetailDTO priceDetailDto)
         {
-        
+            // Kiểm tra xem ProductID có tồn tại không
+            var product = await _context.Products.FindAsync(priceDetailDto.ProductID);
+            if (product == null)
+            {
+                return NotFound($"Product with ID {priceDetailDto.ProductID} not found.");
+            }
+
+            // Chuyển DTO thành entity
+            var priceDetail = new PriceDetail
+            {
+                ProductID = priceDetailDto.ProductID,
+                DiamondPrice = priceDetailDto.DiamondPrice,
+                JewelryPrice = priceDetailDto.JewelryPrice,
+                ProcessingPrice = priceDetailDto.ProcessingPrice,
+                Profit = priceDetailDto.Profit
+            };
+
             _context.PriceDetails.Add(priceDetail);
             await _context.SaveChangesAsync();
 
@@ -31,7 +47,9 @@ namespace BE_V2.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<PriceDetail>> GetPriceDetail(int id)
         {
-            var priceDetail = await _context.PriceDetails.FindAsync(id);
+            var priceDetail = await _context.PriceDetails
+                                            .Include(pd => pd.Product)
+                                            .FirstOrDefaultAsync(pd => pd.PriceDetailID == id);
 
             if (priceDetail == null)
             {

@@ -4,6 +4,7 @@ using BE_V2.DataDB;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BE_V2.Migrations
 {
     [DbContext(typeof(DiamondShopV4Context))]
-    partial class DiamondShopV4ContextModelSnapshot : ModelSnapshot
+    [Migration("20240626062657_AddCustomerPoint")]
+    partial class AddCustomerPoint
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -348,49 +351,6 @@ namespace BE_V2.Migrations
                     b.HasIndex("ProductId");
 
                     b.ToTable("OrderDetails");
-                });
-
-            modelBuilder.Entity("BE_V2.DataDB.OrderLog", b =>
-                {
-                    b.Property<int>("LogID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasColumnName("LogID");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("LogID"));
-
-                    b.Property<int>("OrderID")
-                        .HasColumnType("int");
-
-                    b.Property<bool>("Phase1")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bit")
-                        .HasDefaultValue(false);
-
-                    b.Property<bool>("Phase2")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bit")
-                        .HasDefaultValue(false);
-
-                    b.Property<bool>("Phase3")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bit")
-                        .HasDefaultValue(false);
-
-                    b.Property<bool>("Phase4")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bit")
-                        .HasDefaultValue(false);
-
-                    b.Property<DateTime>("PhaseTime")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("LogID")
-                        .HasName("PK__OrderLog__A5D58A608123E0B0");
-
-                    b.HasIndex("OrderID");
-
-                    b.ToTable("OrderLog", (string)null);
                 });
 
             modelBuilder.Entity("BE_V2.DataDB.Payment", b =>
@@ -776,18 +736,6 @@ namespace BE_V2.Migrations
                     b.Navigation("Product");
                 });
 
-            modelBuilder.Entity("BE_V2.DataDB.OrderLog", b =>
-                {
-                    b.HasOne("BE_V2.DataDB.Order", "Order")
-                        .WithMany("OrderLogs")
-                        .HasForeignKey("OrderID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired()
-                        .HasConstraintName("FK__OrderLog__OrderID__02FC7413");
-
-                    b.Navigation("Order");
-                });
-
             modelBuilder.Entity("BE_V2.DataDB.Payment", b =>
                 {
                     b.HasOne("BE_V2.DataDB.Order", "Order")
@@ -899,8 +847,6 @@ namespace BE_V2.Migrations
             modelBuilder.Entity("BE_V2.DataDB.Order", b =>
                 {
                     b.Navigation("OrderDetails");
-
-                    b.Navigation("OrderLogs");
 
                     b.Navigation("Payments");
                 });
