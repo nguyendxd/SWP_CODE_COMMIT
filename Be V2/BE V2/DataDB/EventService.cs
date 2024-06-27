@@ -8,43 +8,39 @@ public class EventService
 {
     private readonly DiamondShopV4Context _context;
 
-    public EventService (DiamondShopV4Context context)
+    public EventService(DiamondShopV4Context context)
     {
         _context = context;
     }
 
     public async Task CleanupExpiredEvents()
     {
-        // xoa cac item het han sale
-        var expiredEventItems = await _context.EventItems
-            .Where(ei => ei.Date < DateTime.UtcNow) //Lọc các san pham het han trong evenitems
-            .ToListAsync();
-        foreach (var eventItem in expiredEventItems)
-        {
-            //tim san pham tuong ung voi muc su kien
-            var product = await _context.Products.FindAsync(eventItem.ProductID);
-            if (product != null)
-            {
-                //khoi phuc lai gia goc cua san pham
-                product.Price = product.Price / (1 - (eventItem.Discount / 100)); //cong thuc tra lai gia ban dau
-                _context.Entry(product).State = EntityState.Modified; //sửa lại product
-            }
-            //xoa
-            _context.EventItems.Remove(eventItem);
-        }
-
         var expiredEvents = await _context.Events
-            .Where(e => e.Date < DateTime.UtcNow) //loc event het han
-            .Include(e => e.EventItems) //bao gom event item do eventitem nam ben trong event 
+            .Where(e => e.Date < DateTime.UtcNow) // Lọc các sự kiện hết hạn
+            .Include(e => e.EventItems) // Bao gồm EventItems vì EventItem nằm bên trong Event
             .ToListAsync();
-        foreach ( var @event in expiredEvents)
+
+        foreach (var expiredEvent in expiredEvents)
         {
-            _context.Events.Remove(@event);
+            foreach (var eventItem in expiredEvent.EventItems)
+            {
+                // Tìm sản phẩm tương ứng với mục sự kiện
+                var product = await _context.Products.FindAsync(eventItem.ProductID);
+                if (product != null)
+                {
+                    // Khôi phục lại giá gốc của sản phẩm
+                    product.Price = product.Price / (1 - (eventItem.Discount / 100)); // Công thức trả lại giá ban đầu
+                    _context.Entry(product).State = EntityState.Modified; // Đánh dấu thay đổi
+                }
 
+                // Xóa EventItem
+                _context.EventItems.Remove(eventItem);
+            }
+
+            // Xóa Event
+            _context.Events.Remove(expiredEvent);
         }
-        await _context.SaveChangesAsync();
+
+        await _context.SaveChangesAsync(); // Lưu thay đổi vào cơ sở dữ liệu
     }
-
-
 }
-

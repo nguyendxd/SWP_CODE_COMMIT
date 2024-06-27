@@ -3,8 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\controllers\\orderdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:controllers\\orderdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\datadb\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:datadb\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\controllers\\orderlogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:controllers\\orderlogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\datadb\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:datadb\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\datadb\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:datadb\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\controllers\\eventitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:controllers\\eventitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\datadb\\orderlogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,16 +71,8 @@
       "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:migrations\\20240627043036_latestorderlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\datadb\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:datadb\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\datadb\\eventitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:datadb\\eventitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\migrations\\20240626083250_neworderlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -53,10 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\datadb\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:datadb\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\datadb\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:datadb\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\datadb\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -119,10 +147,6 @@
       "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:controllers\\pricedetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|c:\\users\\msi-pc\\desktop\\c#.netcode\\swp-su2024-main\\be v2\\be v2\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F12557B9-F3F6-42C9-B24A-0B2AFE5388E2}|BE V2.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -151,6 +175,57 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "OrderDetailsController.cs",
+              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Controllers\\OrderDetailsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderDetailsController.cs",
+              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Controllers\\OrderDetailsController.cs",
+              "RelativeToolTip": "Controllers\\OrderDetailsController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAuwCUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T06:52:38.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EventItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Controllers\\EventItemsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EventItemsController.cs",
+              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Controllers\\EventItemsController.cs",
+              "RelativeToolTip": "Controllers\\EventItemsController.cs",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAAAHsAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T05:13:53.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20240627043036_latestOrderLog.cs",
+              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Migrations\\20240627043036_latestOrderLog.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240627043036_latestOrderLog.cs",
+              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Migrations\\20240627043036_latestOrderLog.cs",
+              "RelativeToolTip": "Migrations\\20240627043036_latestOrderLog.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T04:30:37.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Controllers\\OrdersController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAuwBwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T05:40:44.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "OrderLogsController.cs",
               "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Controllers\\OrderLogsController.cs",
               "RelativeDocumentMoniker": "Controllers\\OrderLogsController.cs",
@@ -163,33 +238,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "20240627043036_latestOrderLog.cs",
-              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Migrations\\20240627043036_latestOrderLog.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240627043036_latestOrderLog.cs",
-              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Migrations\\20240627043036_latestOrderLog.cs",
-              "RelativeToolTip": "Migrations\\20240627043036_latestOrderLog.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\Order.cs",
+              "RelativeDocumentMoniker": "DataDB\\Order.cs",
+              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\Order.cs",
+              "RelativeToolTip": "DataDB\\Order.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T04:30:37.811Z",
+              "WhenOpened": "2024-06-26T07:49:03.626Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
+              "Title": "EventsController.cs",
+              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Controllers\\EventsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EventsController.cs",
+              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Controllers\\EventsController.cs",
+              "RelativeToolTip": "Controllers\\EventsController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAHgAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T05:36:52.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-27T06:28:32.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "DataDB\\OrderDetail.cs",
+              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\OrderDetail.cs",
+              "RelativeToolTip": "DataDB\\OrderDetail.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAuwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T06:52:32.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "EventService.cs",
               "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\EventService.cs",
               "RelativeDocumentMoniker": "DataDB\\EventService.cs",
               "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\EventService.cs",
               "RelativeToolTip": "DataDB\\EventService.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAAAB0AAABXAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAAQwCQAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-27T04:09:36.075Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "OrderLog.cs",
               "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\OrderLog.cs",
               "RelativeDocumentMoniker": "DataDB\\OrderLog.cs",
@@ -197,12 +311,37 @@
               "RelativeToolTip": "DataDB\\OrderLog.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAIwBYAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T07:32:14.605Z",
+              "WhenOpened": "2024-06-26T07:32:14.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAAAHYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T06:05:20.463Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB8AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-27T06:28:40.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "OrderDTO.cs",
               "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\OrderDTO.cs",
               "RelativeDocumentMoniker": "DataDB\\OrderDTO.cs",
@@ -210,12 +349,11 @@
               "RelativeToolTip": "DataDB\\OrderDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T08:39:05.47Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-26T08:39:05.47Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "OrderLogDTO.cs",
               "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\OrderLogDTO.cs",
               "RelativeDocumentMoniker": "DataDB\\OrderLogDTO.cs",
@@ -223,12 +361,11 @@
               "RelativeToolTip": "DataDB\\OrderLogDTO.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAgwBEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T07:59:58.192Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-26T07:59:58.192Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "DiamondShopV4Context.cs",
               "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\DiamondShopV4Context.cs",
               "RelativeDocumentMoniker": "DataDB\\DiamondShopV4Context.cs",
@@ -236,12 +373,11 @@
               "RelativeToolTip": "DataDB\\DiamondShopV4Context.cs",
               "ViewState": "AQIAAHIBAAAAAAAAAAAowIoBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T07:46:47.742Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-26T07:46:47.742Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "OrderStatusUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\OrderStatusUpdateDto.cs",
               "RelativeDocumentMoniker": "DataDB\\OrderStatusUpdateDto.cs",
@@ -249,12 +385,11 @@
               "RelativeToolTip": "DataDB\\OrderStatusUpdateDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T04:32:11.985Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-27T04:32:11.985Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 17,
               "Title": "EventItem.cs",
               "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\EventItem.cs",
               "RelativeDocumentMoniker": "DataDB\\EventItem.cs",
@@ -262,24 +397,11 @@
               "RelativeToolTip": "DataDB\\EventItem.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAAwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T04:26:45.064Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-27T04:26:45.064Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\Order.cs",
-              "RelativeDocumentMoniker": "DataDB\\Order.cs",
-              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\Order.cs",
-              "RelativeToolTip": "DataDB\\Order.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAkwAwAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T07:49:03.626Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 19,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
@@ -291,7 +413,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 18,
               "Title": "20240626083250_newOrderLog.cs",
               "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Migrations\\20240626083250_newOrderLog.cs",
               "RelativeDocumentMoniker": "Migrations\\20240626083250_newOrderLog.cs",
@@ -299,25 +421,11 @@
               "RelativeToolTip": "Migrations\\20240626083250_newOrderLog.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T08:32:50.289Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-26T08:32:50.289Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAF8AAAAAAAAAAAAmwHgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T06:05:20.463Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 38,
               "Title": "20240626075201_AddOrderLog.cs",
               "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Migrations\\20240626075201_AddOrderLog.cs",
               "RelativeDocumentMoniker": "Migrations\\20240626075201_AddOrderLog.cs",
@@ -329,7 +437,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 20,
               "Title": "EventDTO.cs",
               "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\EventDTO.cs",
               "RelativeDocumentMoniker": "DataDB\\EventDTO.cs",
@@ -341,7 +449,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 22,
               "Title": "CustomerService.cs",
               "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\CustomerService.cs",
               "RelativeDocumentMoniker": "DataDB\\CustomerService.cs",
@@ -353,7 +461,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 21,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\Product.cs",
               "RelativeDocumentMoniker": "DataDB\\Product.cs",
@@ -365,7 +473,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 24,
               "Title": "CustomerPointsDTO.cs",
               "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\CustomerPointsDTO.cs",
               "RelativeDocumentMoniker": "DataDB\\CustomerPointsDTO.cs",
@@ -377,7 +485,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 23,
               "Title": "ICustomerService.cs",
               "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\ICustomerService.cs",
               "RelativeDocumentMoniker": "DataDB\\ICustomerService.cs",
@@ -389,7 +497,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 26,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\Customer.cs",
               "RelativeDocumentMoniker": "DataDB\\Customer.cs",
@@ -401,7 +509,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 25,
               "Title": "CustomerPoints.cs",
               "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\CustomerPoints.cs",
               "RelativeDocumentMoniker": "DataDB\\CustomerPoints.cs",
@@ -413,7 +521,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 27,
               "Title": "Feedback.cs",
               "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\Feedback.cs",
               "RelativeDocumentMoniker": "DataDB\\Feedback.cs",
@@ -425,7 +533,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 29,
               "Title": "20240626062657_AddCustomerPoint.cs",
               "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Migrations\\20240626062657_AddCustomerPoint.cs",
               "RelativeDocumentMoniker": "Migrations\\20240626062657_AddCustomerPoint.cs",
@@ -437,7 +545,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 30,
               "Title": "CartDTO.cs",
               "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\CartDTO.cs",
               "RelativeDocumentMoniker": "DataDB\\CartDTO.cs",
@@ -449,7 +557,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 31,
               "Title": "Cart.cs",
               "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\Cart.cs",
               "RelativeDocumentMoniker": "DataDB\\Cart.cs",
@@ -461,7 +569,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 28,
               "Title": "Event.cs",
               "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\Event.cs",
               "RelativeDocumentMoniker": "DataDB\\Event.cs",
@@ -473,7 +581,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 32,
               "Title": "CartItem.cs",
               "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\CartItem.cs",
               "RelativeDocumentMoniker": "DataDB\\CartItem.cs",
@@ -485,7 +593,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 34,
               "Title": "ProductValidator.cs",
               "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\ProductValidator.cs",
               "RelativeDocumentMoniker": "DataDB\\ProductValidator.cs",
@@ -497,7 +605,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 33,
               "Title": "CustomerController.cs",
               "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Controllers\\CustomerController.cs",
               "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
@@ -509,19 +617,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "OrdersController.cs",
-              "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Controllers\\OrdersController.cs",
-              "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
-              "ToolTip": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Controllers\\OrdersController.cs",
-              "RelativeToolTip": "Controllers\\OrdersController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T05:40:44.915Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 35,
               "Title": "PriceDetailsController.cs",
               "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Controllers\\PriceDetailsController.cs",
               "RelativeDocumentMoniker": "Controllers\\PriceDetailsController.cs",
@@ -533,7 +629,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 36,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
@@ -545,7 +641,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 37,
               "Title": "PriceDetail.cs",
               "DocumentMoniker": "C:\\Users\\MSI-PC\\Desktop\\C#.NETcode\\SWP-SU2024-main\\Be V2\\BE V2\\DataDB\\PriceDetail.cs",
               "RelativeDocumentMoniker": "DataDB\\PriceDetail.cs",

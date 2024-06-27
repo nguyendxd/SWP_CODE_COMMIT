@@ -63,11 +63,11 @@ builder.Services.AddAuthentication(options =>
 
 builder.Services.AddAuthorization();
 
-//Cấu hình Swagger
+// Cấu hình Swagger
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-//Cấu hình dịch vụ Hangfire
+// Cấu hình dịch vụ Hangfire
 builder.Services.AddHangfire(configuration =>
     configuration.SetDataCompatibilityLevel(CompatibilityLevel.Version_170)
                  .UseSimpleAssemblyNameTypeSerializer()
@@ -82,12 +82,12 @@ builder.Services.AddHangfire(configuration =>
                      DisableGlobalLocks = true
                  }));
 
-//Thêm máy chủ xử lý nền của Hangfire như một dịch vụ IHostedService
+// Thêm máy chủ xử lý nền của Hangfire như một dịch vụ IHostedService
 builder.Services.AddHangfireServer();
 
 var app = builder.Build();
 
-//Cấu hình pipeline xử lý HTTP
+// Cấu hình pipeline xử lý HTTP
 if (app.Environment.IsDevelopment())
 {
     app.UseDeveloperExceptionPage();
@@ -111,10 +111,10 @@ app.UseAuthentication(); // Kích hoạt middleware xác thực
 app.UseAuthorization();
 app.MapControllers();
 
-//Sử dụng Hangfire dashboard (tùy chọn)
+// Sử dụng Hangfire dashboard (tùy chọn)
 app.UseHangfireDashboard();
 
-//Lên lịch công việc nền chạy hàng giờ
-RecurringJob.AddOrUpdate<EventService>("cleanup-expired-events", service => service.CleanupExpiredEvents(), Cron.Hourly);
+// Lên lịch công việc nền chạy mỗi phút
+RecurringJob.AddOrUpdate<EventService>("cleanup-expired-events", service => service.CleanupExpiredEvents(), "*/1 * * * *");
 
 app.Run();
