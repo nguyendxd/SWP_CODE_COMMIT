@@ -1,0 +1,63 @@
+.container {
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+.event-details {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+.discounted-products {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.scroll-bar .ER-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.scroll-bar .ER-items img {
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.carousel-item-padding-40-px {
+    padding: 0 10px;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: gray;
+    opacity: 0.6;
+    margin-right: 10px;
+}
+
+.discounted-price {
+    color: #ff4d4d;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .ER-items img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .ER-items p {
+        font-size: 0.8rem;
+    }
+
+    .banner-content p {
+        padding-left: 0;
+    }
+}

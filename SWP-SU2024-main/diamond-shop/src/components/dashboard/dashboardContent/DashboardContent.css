@@ -1,0 +1,25 @@
+.dashboard-container {
+  padding: 24px;
+  background-color: #f5f5f5;
+}
+
+.dashboard-paper {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.dashboard-chart {
+  height: 400px;
+}
+
+.dashboard-deposits {
+  height: 400px;
+}
+
+.dashboard-orders {
+  height: auto;
+  max-height: 400px; /* Ensure it fits well */
+  overflow-y: auto; /* Allow scrolling if content overflows */
+}

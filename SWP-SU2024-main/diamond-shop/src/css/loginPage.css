@@ -1,0 +1,73 @@
+/* styles.css */
+
+/* Reset some basic elements */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Center the main container on the page */
+  .main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+  }
+  
+  /* Style the form container */
+  .form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+  }
+  
+  /* Style the form elements */
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+  }
+  
+  form .MuiTextField-root,
+  form .MuiButton-root {
+    margin-top: 16px;
+  }
+  
+  form .MuiButton-root {
+    background-color: #000; /* Change button background to black */
+    color: #fff; /* Change button text to white */
+  }
+  
+  form .MuiButton-root:hover {
+    background-color: #333; /* Darker shade on hover */
+  }
+  
+  /* Style the avatar */
+  .avatar {
+    background-color: transparent; /* Transparent background for avatar */
+    margin: 10px auto;
+  }
+  
+  /* Style the links */
+  a {
+    color: #000; /* Change link color to black */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style the copyright text */
+  .copyright {
+    text-align: center;
+    margin-top: 16px;
+    color: #777;
+  }
+  

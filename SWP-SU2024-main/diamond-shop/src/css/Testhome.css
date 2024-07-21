@@ -1,0 +1,429 @@
+/* General Styles */
+.custom-container {
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.banner-content, .banner-content2, .banner-content3 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.banner-content3 {
+    flex-direction: row-reverse; /* Reverse row for banner-content3 */
+}
+
+.banner-content1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px; /* Add margin to separate from other sections */
+    position: relative;
+    z-index: 1; /* Ensure this section is on top */
+}
+
+.banner-content1 img {
+    width: 100%;
+    height: auto;
+}
+
+.banner-content1-txt {
+    position: absolute;
+    top: 50%; /* Vertically center the text */
+    left: 50%; /* Horizontally center the text */
+    transform: translate(-50%, -50%); /* Center the text exactly */
+    text-align: center;
+    color: black;
+}
+
+.policy--dec {
+    text-align: center;
+}
+
+.policy--dec .heading-title-line {
+    margin-bottom: 20px;
+}
+
+.list-img {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 40px 0;
+}
+
+.list-jewelry-img-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease, z-index 0.3s ease;
+    position: relative;
+}
+
+.list-jewelry-img-child:hover {
+    z-index: 10;
+    transform: scale(1.1);
+}
+
+.diamond-item {
+    text-align: center;
+}
+
+@media (max-width: 1200px) {
+    .banner-content2 h4, .banner-content3 h4 {
+        font-size: 200%;
+    }
+
+    .banner-content2 p, .banner-content3 p {
+        font-size: 140%;
+    }
+
+    .list-img {
+        padding: 20px 0;
+    }
+    .policy--dec .item p {
+        font-size: medium;
+    }
+}
+
+@media (max-width: 992px) {
+    .banner-content2 h4, .banner-content3 h4 {
+        font-size: 180%;
+    }
+
+    .banner-content2 p, .banner-content3 p {
+        font-size: 120%;
+    }
+
+    .list-jewelry-img-child:hover {
+        transform: scale(1.05);
+    }
+
+    .policy--dec .heading-title-line {
+        margin-bottom: 10px;
+    }
+    .policy--dec .item p {
+        font-size: medium;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .banner-content2, .banner-content3 {
+        flex-direction: column;
+    }
+
+    .banner-content2 h4, .banner-content3 h4 {
+        font-size: 160%;
+    }
+
+    .banner-content2 p, .banner-content3 p {
+        font-size: 100%;
+    }
+
+    .list-img {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px 0;
+    }
+
+    .list-jewelry-img-child {
+        width: 100%;
+    }
+
+    .policy--dec .item {
+        max-width: 100%;
+    }
+    .policy--dec .item p {
+        font-size: small;
+    }
+}
+
+@media (max-width: 576px) {
+    .banner-content2 h4, .banner-content3 h4, .banner-content2 p, .banner-content3 p {
+        padding-left: 0;
+        font-size: 14px;
+    }
+
+    .list-img {
+        gap: 10px;
+    }
+
+    .list-jewelry-img-child:hover {
+        transform: scale(1.02);
+    }
+    .policy--dec .item p {
+        font-size: x-small;
+    }
+}
+
+/* Specific Styles */
+.banner-content p {
+    padding-top: 200px;
+    font-size: 2.5em;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.explore-diamond-banner {
+    background-color: #f5f5f5;
+}
+
+.explore-diamond-banner h3 {
+    margin: 0;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.diamond-item > img {
+    height: 90px;
+    width: 90px;
+}
+
+.diamond-item p {
+    text-align: center;
+    font-size: 18px;
+}
+
+.banner-content2 h4, .banner-content3 h4 {
+    font-size: 2.5em;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: 200;
+}
+
+.banner-content2 p, .banner-content3 p {
+    font-size: 1.6em;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.banner-content2 .btn, .banner-content3 .btn {
+    padding-left: 0;
+}
+
+.banner-content1-txt p, .banner-content1-txt a {
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.heading-title-line {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.heading-title-line::before, .heading-title-line::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #afafaf;
+    margin: 0 10px;
+}
+
+.heading-title-line p {
+    margin: 0;
+    font-size: 35px;
+    font-weight: 550;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.policy--dec {
+    padding: 60px 0;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.policy--dec .heading-title-line {
+    margin-bottom: 40px;
+}
+
+.policy--dec .heading-title-line p {
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.policy--dec .list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.policy--dec .item {
+    flex: 1;
+    max-width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.policy--dec .item h4 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+.policy--dec .item svg {
+    font-size: 40px;
+    color: #000;
+}
+
+.list-jewelry-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.list-jewelry-img > img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.list-jewelry-img-child {
+    position: relative;
+}
+
+.list-jewelry-img-child:hover .btn {
+    opacity: 1;
+}
+
+.btn {
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.list-jewelry-img-child > img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.list-jewelry-img-child > img:hover {
+    transform: scale(1.1);
+}
+
+.list-jewelry-img-child .horizontal-line {
+    border: 0;
+    border-top: 1px solid #e0e0e0;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.advise-form {
+    background-color: white;
+    text-align: center;
+    margin: 10px auto;
+    width: 90%; /* Use relative width */
+    max-width: 500px; /* Limit the maximum width */
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden; /* Prevent overflow */
+}
+
+.advise-form h4 {
+    font-family: unset;
+    font-weight: 630;
+    font-size: 2em; /* Relative font size */
+    color: black;
+    margin-bottom: 0;
+}
+
+.advise-form-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.25em; /* Relative font size */
+    color: black;
+    margin-bottom: 30px;
+}
+
+.advise-form-row1,
+.advise-form-row2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+    flex-wrap: nowrap; /* Ensure no wrapping on this row */
+}
+
+.advise-form .MuiTextField-root {
+    width: 100%; /* Full width for the first row */
+    box-sizing: border-box;
+}
+
+.advise-form-row2 .MuiTextField-root {
+    width: calc(50% - 10px); /* Half width with gap adjustment */
+    min-width: 0; /* Ensure it doesn't overflow */
+}
+
+.advise-form-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.advise-form-btn .MuiButton-root {
+    width: 180px; /* Fixed width for the button */
+    height: 50px;
+    align-items: center;
+}
+
+.advise-form-btn .MuiButton-root:hover {
+    background-color: #dfdfdf;
+}
+
+.rhr {
+    width: 80%; /* Default width */
+    margin: auto;
+    border: 1px solid #ccc; /* Adjust as needed */
+}
+
+@media (max-width: 1200px) {
+    .responsive-hr {
+        width: 90%; /* Width for medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .advise-form-row2 {
+        flex-direction: column; /* Stack fields vertically on smaller screens */
+        gap: 10px;
+    }
+
+    .advise-form-row2 .MuiTextField-root {
+        width: 100%; /* Full width for smaller screens */
+    }
+
+    .responsive-hr {
+        width: 95%; /* Width for small screens */
+    }
+}
+

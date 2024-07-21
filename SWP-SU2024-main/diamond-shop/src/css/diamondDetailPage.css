@@ -1,0 +1,351 @@
+.custom-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Back to Gallery Link */
+.back-to-gallery {
+    margin-bottom: 20px;
+}
+
+.back-to-gallery a {
+    color: #000;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.back-to-gallery a:hover {
+    text-decoration: underline;
+}
+
+/* Diamond Detail Section */
+.diamond-detail-section {
+    display: flex;
+    align-items: flex-start;
+}
+
+.image-wrapper {
+    position: relative;
+    width: 450px;
+}
+
+.diamond-image {
+    width: 450px;
+    height: auto;
+    border: 1px solid #ddd;
+}
+
+.rotate-instructions {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none; /* Ensures the text does not interfere with the mouse events */
+}
+
+.image-wrapper:hover .rotate-instructions {
+    opacity: 1;
+}
+
+
+.image-gallery {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.image-gallery img {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.diamond-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #1e2a78;
+    font-weight: 600;
+}
+
+.shipping-info {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #1e2a78;
+}
+
+.shipping-link {
+    display: block;
+    margin-top: 5px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.shipping-link:hover {
+    text-decoration: underline;
+}
+
+.diamond-specs {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+    font-size: 1rem;
+}
+
+.spec-tag {
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.875rem;
+    color: #555;
+}
+
+.price {
+    font-size: 2rem;
+    color: #1e2a78;
+    margin: 10px 0;
+    font-weight: 700;
+}
+
+.diamond-price {
+    font-size: 1rem;
+    color: #888;
+}
+
+.payment-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+}
+
+.payment-options {
+    font-size: 1rem;
+    color: #000;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.payment-detail {
+    font-size: 1rem;
+    color: #555;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.select-button {
+    flex: 1;
+    background-color: #000000;
+    color: #fff;
+    font-size: 1rem;
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-transform: none;
+    border: 1px solid #1e2a78;
+    box-shadow: none;
+    font-weight: 600;
+    text-align: center;
+}
+
+.select-button:hover {
+    background-color: #161d5c;
+    border-color: #161d5c;
+}
+
+.consult-button {
+    flex: 1;
+    font-size: 1rem;
+    padding: 12px 24px;
+    border-radius: 5px;
+    border: 1px solid #1e2a78;
+    color: #1e2a78;
+    text-transform: none;
+    background-color: #fff;
+    box-shadow: none;
+    font-weight: 600;
+    text-align: center;
+}
+
+.consult-button:hover {
+    background-color: #f0f0f0;
+    border-color: #1e2a78;
+}
+
+.spec-value {
+    display: flex;
+    align-items: center;
+}
+
+.spec-value .info-icon {
+    margin-left: 5px;
+}
+
+/* Additional Info Section */
+.additional-info-section {
+    margin-top: 40px;
+}
+
+.image-gallery {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.image-gallery img {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ddd;
+}
+
+.report-links {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.report-links a {
+    text-align: center;
+    color: #1e2a78;
+    text-decoration: none;
+}
+
+.report-links a:hover {
+    text-decoration: underline;
+}
+
+.diamond-specs-table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+.diamond-specs-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.diamond-specs-table tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.diamond-specs-table td {
+    padding: 10px;
+    font-size: 1rem;
+    color: #1e2a78;
+}
+
+.diamond-specs-table .spec-value {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.diamond-specs-table .spec-value span {
+    margin-right: 5px;
+}
+
+.diamond-specs-table .spec-value .info-icon {
+    font-size: 1rem;
+    color: #1e2a78;
+}
+
+.show-more {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px 0;
+}
+
+.show-more .show-more-text {
+    margin-left: 5px;
+    font-size: 1rem;
+    color: #1e2a78;
+}
+
+.order-includes-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.order-includes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.order-includes-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.order-includes-item .icon {
+    font-size: 2rem;
+}
+
+.additional-links {
+    margin-top: 20px;
+}
+
+.additional-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.additional-content {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+
+}
+
+.additional-links a {
+    display: block;
+    color: #007bff;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.additional-links a:hover {
+    text-decoration: underline;
+}
+
+
+.diamond-specs-table {
+    width: 100%;
+    border-collapse: collapse;
+    
+  }
+  
+  .diamond-specs-table .spec-value {
+    text-align: left;
+  }
+  
+  .diamond-specs-table td, .diamond-specs-table th {
+    border: 1px solid black;
+    padding: 8px;
+    color:black;
+    font-size: smaller;
+  }
+  
+  .diamond-specs-table tr {
+    background-color: transparent;
+  }

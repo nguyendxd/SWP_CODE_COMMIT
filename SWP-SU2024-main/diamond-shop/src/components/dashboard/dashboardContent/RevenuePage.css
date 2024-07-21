@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container-revenue {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #000;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .header .logo {
+        display: flex;
+        align-items: center;
+    }
+
+    .header img {
+        height: 100px;
+        margin-left: 100px;
+    }
+
+.order-details {
+    border: 1px solid #000;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+    .order-details .product {
+        border: 1px solid #000;
+        margin-bottom: 5px;
+        padding: 5px;
+    }
+
+.thankyou {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+
+.info-table {
+    width: 100%;
+    margin-top: 10px;
+}
+
+    .info-table td {
+        padding: 10px;
+        vertical-align: top;
+    }
+
+.info-column {
+    width: 48%;
+}
+
+.total-info {
+    text-align: right;
+}

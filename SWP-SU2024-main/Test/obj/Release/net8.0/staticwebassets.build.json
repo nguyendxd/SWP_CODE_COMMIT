@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "g3EYXL3ox5SLsMAcqx5srcWEfkxZ3ueXS3OIchN2HEw=",
+  "Source": "Test",
+  "BasePath": "_content/Test",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Test\\wwwroot",
+      "Source": "Test",
+      "ContentRoot": "C:\\Users\\DMIN\\OneDrive\\Desktop\\A\\Test\\wwwroot\\",
+      "BasePath": "_content/Test",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

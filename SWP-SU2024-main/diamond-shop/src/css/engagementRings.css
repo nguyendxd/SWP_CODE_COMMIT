@@ -1,0 +1,45 @@
+/* engagementRings.css */
+.custom-container {
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+.explore-diamond-banner {
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.scroll-bar .ER-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.scroll-bar .ER-items img {
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.carousel-item-padding-40-px {
+    padding: 0 10px;
+}
+
+@media (max-width: 768px) {
+    .ER-items img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .ER-items p {
+        font-size: 0.8rem;
+    }
+
+    .banner-content p {
+        padding-left: 0;
+    }
+}

@@ -1,0 +1,62 @@
+/* CertificateManage.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.certificate {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header img {
+    width: 100px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section-title {
+    background-color: #b3976d;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.section-content {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.grading-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.grading-info div {
+    width: 48%;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.table th, .table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+}

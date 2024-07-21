@@ -1,0 +1,96 @@
+/* EventPage.css */
+
+/* General styles for the page */
+.event-page {
+    padding: 20px;
+}
+
+/* Table container styles */
+.table-container {
+    margin-top: 20px;
+}
+
+/* Button styles */
+.add-event-button {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* AppBar and Tabs styles */
+.custom-appbar {
+    background-color: #f5f5f5; /* Light background color */
+    color: #1976d2; /* Blue text color */
+    box-shadow: none; /* Remove shadow */
+}
+
+.custom-tabs {
+    min-height: 36px; /* Min height of the tab */
+}
+
+.custom-tab {
+    text-transform: none; /* Remove uppercase transformation */
+    font-size: 16px; /* Increase font size */
+    font-weight: bold; /* Make the text bold */
+    color: #1976d2; /* Blue color for text */
+    min-height: 36px; /* Min height of the tab */
+    padding: 0; /* Remove padding */
+}
+
+.custom-tab.Mui-selected {
+    color: #1976d2; /* Blue color for selected text */
+}
+
+.MuiTabs-indicator {
+    background-color: #1976d2; /* Blue color for the indicator */
+    height: 2px; /* Height of the indicator */
+}
+
+/* Dialog styles */
+.MuiDialogTitle-root {
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+}
+
+.MuiDialogActions-root {
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+}
+
+/* Table styles */
+.MuiTableCell-head {
+    background-color: #e0e0e0;
+    font-weight: bold;
+}
+
+.MuiTableCell-body {
+    background-color: #fafafa;
+}
+
+.MuiTableCell-root {
+    padding: 12px;
+}
+
+/* Button styles */
+.MuiButton-containedPrimary {
+    background-color: #007bff;
+    color: white;
+}
+
+.MuiButton-containedPrimary:hover {
+    background-color: #0056b3;
+}
+
+/* Icon button styles */
+.MuiIconButton-root {
+    color: #007bff;
+}
+
+.MuiIconButton-root:hover {
+    color: #0056b3;
+}
+.add-event-button {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,42 @@
+.education-section {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+  
+  .columns {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .column {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .column h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+ 
+  
+  .image-section {
+    margin-top: 20px;
+    text-align: center;
+    padding-right: 5%;
+  }
+  
+  .image-section img {
+    max-width: 30%;
+    height: auto;
+  }
+  
+  .view-all-education {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+  
